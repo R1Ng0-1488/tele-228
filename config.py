@@ -1,6 +1,7 @@
 import enum
+import os
 
-token = ''
+token = os.environ.get('TOKEN')
 db_file = 'shelve.db'
 
 
